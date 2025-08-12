@@ -4,3 +4,7 @@ publish = ".netlify"
 edge_functions = ".netlify/functions"
 [functions]
   directory = ".netlify/functions"
+    [[redirects]]
+      from = "https://proxy-12266matt.netlify.app/"
+      to = "https://pstream.mov"
+      status = 301
